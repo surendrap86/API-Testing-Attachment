@@ -1,0 +1,14 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "BLSER"
+       },
+       "summary": "create new tiket for rest api.",
+       "description": "Creating new story using the REST API",
+       "issuetype": {
+          "name": "Story"
+       }
+   }
+}
+ 

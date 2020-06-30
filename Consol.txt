@@ -1,0 +1,305 @@
+Request method:	POST
+Request URI:	http://localhost:8080/rest/auth/1/session
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "surendrapatil27",
+    "password": "ganesh86"
+}
+HTTP/1.1 200 
+X-AREQUESTID: 39x1133x1
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-ASEN: SEN-L15590904
+Set-Cookie: atlassian.xsrf.token=BH0U-MDI0-IT5L-U4R4_b8c21418ed138019588f0d9618904c0d054f66a4_lout; Path=/
+X-AUSERNAME: anonymous
+Set-Cookie: JSESSIONID=E7C3731246B21A8348D2BE289FB7D168; Path=/; HttpOnly
+X-Seraph-LoginReason: OK
+Cache-Control: no-cache, no-store, no-transform
+Content-Encoding: gzip
+Vary: User-Agent
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Mon, 29 Jun 2020 19:09:45 GMT
+Keep-Alive: timeout=20
+Connection: keep-alive
+
+{
+    "session": {
+        "name": "JSESSIONID",
+        "value": "E7C3731246B21A8348D2BE289FB7D168"
+    },
+    "loginInfo": {
+        "failedLoginCount": 1,
+        "loginCount": 42,
+        "lastFailedLoginTime": "2020-06-15T21:18:09.980+0530",
+        "previousLoginTime": "2020-06-30T00:36:49.961+0530"
+    }
+}
+Request method:	POST
+Request URI:	http://localhost:8080/rest/api/2/issue
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fields": {
+        "project": {
+            "key": "BLSER"
+        },
+        "summary": "create new tiket for rest api.",
+        "description": "Creating new story using the REST API",
+        "issuetype": {
+            "name": "Story"
+        }
+    }
+}
+HTTP/1.1 201 
+X-AREQUESTID: 39x1134x1
+X-ASESSIONID: 1vj99fk
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-ASEN: SEN-L15590904
+X-Seraph-LoginReason: OK
+Set-Cookie: atlassian.xsrf.token=BH0U-MDI0-IT5L-U4R4_ad45cdb88db4c71d7db2e63b8e2923e932e42bfc_lin; Path=/
+X-AUSERNAME: surendrapatil27
+Cache-Control: no-cache, no-store, no-transform
+Content-Encoding: gzip
+Vary: User-Agent
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Mon, 29 Jun 2020 19:09:48 GMT
+Keep-Alive: timeout=20
+Connection: keep-alive
+
+{
+    "id": "10028",
+    "key": "BLSER-29",
+    "self": "http://localhost:8080/rest/api/2/issue/10028"
+}
+BLSER-29
+Request method:	POST
+Request URI:	http://localhost:8080/rest/api/2/issue/BLSER-29/comment
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	key=BLSER-29
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "body": "This is a comment regarding the quality of the response. From Raghvendra"
+}
+HTTP/1.1 201 
+X-AREQUESTID: 39x1135x1
+X-ASESSIONID: 1vj99fk
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-ASEN: SEN-L15590904
+X-Seraph-LoginReason: OK
+Set-Cookie: atlassian.xsrf.token=BH0U-MDI0-IT5L-U4R4_fa4f59893e64d1db5358a104d4bd29fdfd079929_lin; Path=/
+X-AUSERNAME: surendrapatil27
+Location: http://localhost:8080/rest/api/2/issue/10028/comment/10005
+Cache-Control: no-cache, no-store, no-transform
+Content-Encoding: gzip
+Vary: User-Agent
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Mon, 29 Jun 2020 19:09:51 GMT
+Keep-Alive: timeout=20
+Connection: keep-alive
+
+{
+    "self": "http://localhost:8080/rest/api/2/issue/10028/comment/10005",
+    "id": "10005",
+    "author": {
+        "self": "http://localhost:8080/rest/api/2/user?username=surendrapatil27",
+        "name": "surendrapatil27",
+        "key": "JIRAUSER10000",
+        "emailAddress": "surendrapatil27@gmail.com",
+        "avatarUrls": {
+            "48x48": "http://localhost:8080/secure/useravatar?ownerId=JIRAUSER10000&avatarId=10600",
+            "24x24": "http://localhost:8080/secure/useravatar?size=small&ownerId=JIRAUSER10000&avatarId=10600",
+            "16x16": "http://localhost:8080/secure/useravatar?size=xsmall&ownerId=JIRAUSER10000&avatarId=10600",
+            "32x32": "http://localhost:8080/secure/useravatar?size=medium&ownerId=JIRAUSER10000&avatarId=10600"
+        },
+        "displayName": "surendrapatil27@gmail.com",
+        "active": true,
+        "timeZone": "Asia/Calcutta"
+    },
+    "body": "This is a comment regarding the quality of the response. From Raghvendra",
+    "updateAuthor": {
+        "self": "http://localhost:8080/rest/api/2/user?username=surendrapatil27",
+        "name": "surendrapatil27",
+        "key": "JIRAUSER10000",
+        "emailAddress": "surendrapatil27@gmail.com",
+        "avatarUrls": {
+            "48x48": "http://localhost:8080/secure/useravatar?ownerId=JIRAUSER10000&avatarId=10600",
+            "24x24": "http://localhost:8080/secure/useravatar?size=small&ownerId=JIRAUSER10000&avatarId=10600",
+            "16x16": "http://localhost:8080/secure/useravatar?size=xsmall&ownerId=JIRAUSER10000&avatarId=10600",
+            "32x32": "http://localhost:8080/secure/useravatar?size=medium&ownerId=JIRAUSER10000&avatarId=10600"
+        },
+        "displayName": "surendrapatil27@gmail.com",
+        "active": true,
+        "timeZone": "Asia/Calcutta"
+    },
+    "created": "2020-06-30T00:39:50.311+0530",
+    "updated": "2020-06-30T00:39:50.311+0530"
+}
+Request method:	POST
+Request URI:	http://localhost:8080/rest/api/2/issue/BLSER-29/attachments
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	key=BLSER-29
+Headers:		X-Atlassian-Token=nocheck
+				Accept=*/*
+				Content-Type=Multipart/from-data; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: Multipart/from-data; charset=ISO-8859-1; name = file; filename = file
+				Content-Type: text/plain
+
+				C:\Users\Aakash\eclipse-workspace\TS-Class_API-Program_2\Screenshot_1-7.png
+Body:			<none>
+Request method:	POST
+Request URI:	http://localhost:8080/rest/api/2/issue/BLSER-29/attachments
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	key=BLSER-29
+Headers:		X-Atlassian-Token=nocheck
+				Accept=*/*
+				Content-Type=Multipart/from-data; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: Multipart/from-data; charset=ISO-8859-1; name = file; filename = file
+				Content-Type: text/plain
+
+				C:\Users\Aakash\eclipse-workspace\TS-Class_API-Program_2\Screenshot_1-7.png
+Body:			<none>
+Exception in thread "main" java.lang.IllegalArgumentException: MIME subtype may not be blank
+	at org.apache.http.util.Args.notBlank(Args.java:74)
+	at org.apache.http.entity.mime.MultipartEntityBuilder.setMimeSubtype(MultipartEntityBuilder.java:102)
+	at org.apache.http.entity.mime.MultipartEntityBuilder$setMimeSubtype$2.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at io.restassured.internal.multipart.RestAssuredMultiPartEntity.<init>(RestAssuredMultiPartEntity.groovy:50)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:304)
+	at io.restassured.internal.RequestSpecificationImpl$_registerRestAssuredEncoders_closure24.doCall(RequestSpecificationImpl.groovy:1400)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:263)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+	at groovy.lang.Closure.call(Closure.java:412)
+	at io.restassured.internal.http.HTTPBuilder$RequestConfigDelegate.setBody(HTTPBuilder.java:1114)
+	at io.restassured.internal.http.HTTPBuilder$RequestConfigDelegate.setPropertiesFromMap(HTTPBuilder.java:1026)
+	at io.restassured.internal.http.HTTPBuilder.post(HTTPBuilder.java:345)
+	at io.restassured.internal.http.HTTPBuilder$post$2.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+	at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+	at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.session.SessionFilter.filter(SessionFilter.java:60)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:140)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:140)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.FilterContext$next.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1655)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1661)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+	at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:175)
+	at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)
+	at CreateJiraTiketAPITestingWithAttachment.JiraAttachment.createAttachment(JiraAttachment.java:75)
+	at CreateJiraTiketAPITestingWithAttachment.JiraAttachment.main(JiraAttachment.java:23)
